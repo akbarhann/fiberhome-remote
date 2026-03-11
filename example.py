@@ -4,8 +4,8 @@ import json
 
 # --- CONFIGURATION ---
 ROUTER_IP = "192.168.1.1"
-USER = "user"
-PASS = "user1234"
+USER = "YOUR USERNAME"
+PASS = "YOUR PASSWORD"
 
 def main():
     router = FiberHomeRouter(ROUTER_IP, USER, PASS)
@@ -24,8 +24,8 @@ def main():
     print(f"    Current Pwd : {status['password']}")
 
     # 2. Change Settings
-    new_ssid = "FiberHome_Remote"
-    new_pass = "sasukeee_123"
+    new_ssid = "NEW SSID"
+    new_pass = "NEW WIFI PASSWORD"
 
     print(f"\n[*] Changing Wi-Fi to:")
     print(f"    New SSID: {new_ssid}")
